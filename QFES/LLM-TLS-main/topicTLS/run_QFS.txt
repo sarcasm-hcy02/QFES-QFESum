@@ -1,0 +1,18 @@
+python topicTLS/qfs.py \
+  --batch_manifest ./QFESum/finan/LLM_TLS/tls_llm_tasks.json \
+  --output ./QFESum/finan/LLM_TLS/tls_results2\.json \
+  --use_llm \
+  --llm_provider ollama \
+  --llm_model qwen2.5:7b \
+  --ollama_base http://127.0.0.1:11434 \
+  --embed_model thenlper/gte-large \
+  --top_n 20 --top_l 36 --k_per_cluster 3 --summary_mode textrank
+
+
+
+tls_llm_tasks.json format like the follows:
+
+[
+  {"input": "./QFESum/finan/RAT/Treasury_Department.json", "query": "Treasury Department response and intervention"},
+  {"input": "./QFESum/finan/RAT/FED_response.json", "query": "Ben Bernanke and Federal Reserve Monetary response"}
+]

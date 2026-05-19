@@ -1,0 +1,109 @@
+############################################
+# macOS / System files
+############################################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+############################################
+# Python cache files
+############################################
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+############################################
+# Python virtual environments
+############################################
+venv/
+env/
+.venv/
+ENV/
+
+############################################
+# Build / packaging files
+############################################
+build/
+dist/
+*.egg-info/
+.eggs/
+
+############################################
+# Jupyter Notebook checkpoints
+############################################
+.ipynb_checkpoints/
+
+############################################
+# IDE / editor settings
+############################################
+.vscode/
+.idea/
+
+############################################
+# Logs
+############################################
+*.log
+logs/
+log/
+
+############################################
+# Temporary files
+############################################
+tmp/
+temp/
+.cache/
+.cache_*/
+*.tmp
+*.bak
+*.swp
+
+############################################
+# Experiment outputs
+############################################
+outputs/
+output/
+results/
+result/
+runs/
+wandb/
+
+############################################
+# Model checkpoints / large model files
+############################################
+checkpoints/
+checkpoint/
+models/
+model/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+############################################
+# Compressed files
+############################################
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+############################################
+# Environment / secret files
+############################################
+.env
+.env.*
+*.key
+*.pem
+
+############################################
+# Private or raw data
+############################################
+private_data/
+raw_data/
+data/raw/
+# Large SUnSet training files
+QFES/unstructured-evidence/data/sunset/train_split.jsonl
+QFES/unstructured-evidence/data/sunset/train.jsonl
