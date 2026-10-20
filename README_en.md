@@ -260,12 +260,18 @@ cd QFES/test
 
 Run the test scripts according to the module-level README to check the retrieval, summarization, and evaluation workflow.
 
-## 7. Notes for Anonymous Review
+## 7. Supplementary Materials
 
-This repository is prepared for anonymous review. Author-identifying information has been removed from the code, documentation, and metadata.
+Detailed experimental results, case studies, prompt templates, and experimental settings are provided in the supplementary materials:
 
-When using this repository for review or reproduction, please refer to the module-level README files for detailed instructions.
+- [Supplementary Materials](supplementary/supplementary_materials.pdf)
+
+These materials provide additional details for the experiments reported in the paper and are intended to facilitate reproduction and further analysis.
 
 ## 8. License and Data Usage
 
-Please refer to the final camera-ready version or the official public release for complete license and data usage information.
+QFESum is constructed based on the publicly available T17 and CRISIS datasets. The original T17 and CRISIS source data remain subject to the terms and licenses of their respective datasets and are not relicensed by this repository.
+
+The code, newly constructed queries, relevance annotations, benchmark metadata, prompts, and other materials developed in this work may be used for research and reproducibility purposes. Users should also comply with the original usage terms of T17 and CRISIS when using the corresponding source data.
+
+If you use QFESum or the associated code in your research, please cite the corresponding paper.
