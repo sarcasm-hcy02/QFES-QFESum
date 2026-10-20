@@ -74,9 +74,9 @@ yemen
 QFESum/README.md
 ```
 
-## 3. QFES 方法
+## 3. Benchmark Framework
 
-`QFES/` 文件夹包含本文提出的 QFES 方法及相关实验代码。整个方法主要由两个核心模块组成：
+`QFES/` 文件夹包含本文提出的 Benchmark Framework 及相关实验代码。整个方法主要由两个核心模块组成：
 
 ```text
 QFES/
