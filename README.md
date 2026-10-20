@@ -260,7 +260,6 @@ cd QFES/test
 
 Run the test scripts according to the module-level README to check the retrieval, summarization, and evaluation workflow.
 
-```markdown
 ## 7. Supplementary Materials
 
 Detailed experimental results, case studies, prompt templates, and experimental settings are provided in the supplementary materials:
@@ -276,4 +275,4 @@ QFESum is constructed based on the publicly available T17 and CRISIS datasets. T
 The code, newly constructed queries, relevance annotations, benchmark metadata, prompts, and other materials developed in this work may be used for research and reproducibility purposes. Users should also comply with the original usage terms of T17 and CRISIS when using the corresponding source data.
 
 If you use QFESum or the associated code in your research, please cite the corresponding paper.
-```
+
