@@ -1,3 +1,5 @@
+[English](README_en.md) | [中文](README_zh.md)
+
 # QFES 与 QFESum
 
 本仓库包含两个主要部分：QFESum 数据集和 QFES 摘要算法。QFESum 是面向 Query-Focused Event Summarization（QFES）任务构建的数据集；QFES 是本文提出的查询聚焦事件摘要方法，包括 RAT 检索器和 SHC 摘要器。此外，本仓库还包含测试代码以及三个 baseline 方法的实验代码。
