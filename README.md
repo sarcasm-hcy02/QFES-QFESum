@@ -1,3 +1,5 @@
+[English](README_en.md) | [中文](README_zh.md)
+
 # QFES and QFESum
 
 This repository contains two main components: the QFESum dataset and the QFES summarization method. QFESum is a dataset constructed for the Query-Focused Event Summarization (QFES) task. QFES is the proposed query-focused event summarization method, consisting of the RAT retriever and the SHC summarizer. This repository also includes test code and the experimental code for three baseline methods.
