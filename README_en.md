@@ -74,9 +74,9 @@ For detailed field descriptions, data formats, and examples, please refer to:
 QFESum/README.md
 ```
 
-## 3. QFES Method
+## 3. Benchmark Framework
 
-The `QFES/` directory contains the proposed QFES method and related experimental code. The method mainly consists of two core modules:
+The `QFES/` directory contains the proposed Benchmark Framework and related experimental code. The method mainly consists of two core modules:
 
 ```text
 QFES/
