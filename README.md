@@ -27,6 +27,9 @@ This repository contains two main components: the QFESum dataset and the QFES su
 │   ├── graphrag-main/
 │   └── LLM-TLS-main/
 │
+├── supplementary/
+│   └── supplementary_materials.pdf
+│
 ├── README.md
 └── requirements.txt
 ```
